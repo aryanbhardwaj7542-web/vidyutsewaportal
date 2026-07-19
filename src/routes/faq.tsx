@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "FAQ — Vidyut Bhawan" },
+      { title: "FAQ — Vidyut Sewa Portal" },
       { name: "description", content: "Frequently asked questions about registering and tracking electricity complaints with the Bihar Electricity Department." },
     ],
   }),

@@ -40,7 +40,7 @@ export function Navbar() {
             <Zap className="h-6 w-6" />
           </div>
           <div className="leading-tight">
-            <div className="font-serif text-lg font-bold text-primary">Vidyut Bhawan</div>
+            <div className="font-serif text-lg font-bold text-primary">Vidyut Sewa Portal</div>
             <div className="text-[11px] uppercase tracking-wider text-muted-foreground">
               Electricity Complaint Portal · Govt. of Bihar
             </div>
@@ -123,7 +123,7 @@ export function Footer() {
     <footer className="mt-16 border-t bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-4 py-12 grid gap-8 md:grid-cols-4">
         <div>
-          <div className="font-serif text-lg font-bold">Vidyut Bhawan</div>
+          <div className="font-serif text-lg font-bold">Vidyut Sewa Portal</div>
           <p className="mt-2 text-sm opacity-80">
             Electricity Department, Bailey Road, Patna — 800001, Bihar, India
           </p>

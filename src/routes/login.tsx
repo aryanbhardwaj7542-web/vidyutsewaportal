@@ -6,7 +6,7 @@ import { login, seedIfEmpty } from "@/lib/store";
 import { Zap } from "lucide-react";
 
 export const Route = createFileRoute("/login")({
-  head: () => ({ meta: [{ title: "Login — Vidyut Bhawan" }, { name: "description", content: "Login to the Vidyut Bhawan electricity complaint portal." }] }),
+  head: () => ({ meta: [{ title: "Login — Vidyut Sewa Portal" }, { name: "description", content: "Login to the Vidyut Sewa Portal electricity complaint portal." }] }),
   component: LoginPage,
 });
 

@@ -8,7 +8,7 @@ import { getComplaints, seedIfEmpty } from "@/lib/store";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vidyut Bhawan — Electricity Complaint Portal, Bihar" },
+      { title: "Vidyut Sewa Portal — Electricity Complaint Portal, Bihar" },
       { name: "description", content: "Register and track electricity complaints — power failures, meter faults, billing and infrastructure — with the Electricity Department, Bihar." },
     ],
   }),
@@ -86,7 +86,7 @@ function HomePage() {
               Reliable Power. <br /> Faster Resolutions.
             </h1>
             <p className="mt-4 max-w-lg text-base opacity-90 md:text-lg">
-              File an electricity complaint online with Vidyut Bhawan and track it end-to-end. From power outages to billing disputes, we're committed to a swift response.
+              File an electricity complaint online with Vidyut Sewa Portal and track it end-to-end. From power outages to billing disputes, we're committed to a swift response.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link to="/complaint">

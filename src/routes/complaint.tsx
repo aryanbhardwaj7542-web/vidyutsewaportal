@@ -6,7 +6,7 @@ import { addComplaint, CATEGORIES, DISTRICTS, getSession, seedIfEmpty, type Comp
 import { CheckCircle2, Copy } from "lucide-react";
 
 export const Route = createFileRoute("/complaint")({
-  head: () => ({ meta: [{ title: "Register Complaint — Vidyut Bhawan" }, { name: "description", content: "File a new electricity complaint online with Vidyut Bhawan, Bihar." }] }),
+  head: () => ({ meta: [{ title: "Register Complaint — Vidyut Sewa Portal" }, { name: "description", content: "File a new electricity complaint online with Vidyut Sewa Portal, Bihar." }] }),
   component: ComplaintPage,
 });
 
