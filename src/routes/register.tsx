@@ -6,7 +6,7 @@ import { register } from "@/lib/store";
 import { Field } from "./login";
 
 export const Route = createFileRoute("/register")({
-  head: () => ({ meta: [{ title: "Create account — Vidyut Sewa Portal" }, { name: "description", content: "Create a Vidyut Sewa Portal portal account to file and track electricity complaints." }] }),
+  head: () => ({ meta: [{ title: "Create account — Vidyut Sewa Portal" }, { name: "description", content: "Create a Vidyut Sewa Portal account to file and track electricity complaints." }] }),
   component: RegisterPage,
 });
 

@@ -18,7 +18,7 @@ function AboutPage() {
         <div className="text-xs font-semibold uppercase tracking-wider text-saffron">Electricity Department, Bihar</div>
         <h1 className="mt-2 font-serif text-4xl font-bold text-primary">About Vidyut Sewa Portal</h1>
         <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-          Vidyut Sewa Portal, Patna is the headquarters of Bihar's Electricity Department. We supply, distribute and maintain reliable electric power to every district of Bihar.
+          Vidyut Sewa Portal is the official grievance-redressal portal of Bihar's Electricity Department, headquartered at Vidyut Bhawan, Patna. We supply, distribute and maintain reliable electric power to every district of Bihar.
         </p>
       </div>
 

@@ -8,7 +8,7 @@ import { getComplaints, seedIfEmpty } from "@/lib/store";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vidyut Sewa Portal — Electricity Complaint Portal, Bihar" },
+      { title: "Vidyut Sewa Portal — Electricity Complaints, Bihar" },
       { name: "description", content: "Register and track electricity complaints — power failures, meter faults, billing and infrastructure — with the Electricity Department, Bihar." },
     ],
   }),
