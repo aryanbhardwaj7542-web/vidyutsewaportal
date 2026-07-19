@@ -31,8 +31,8 @@ function AdminPanel() {
   useEffect(() => {
     seedIfEmpty();
     const s = getSession();
-    if (!s) return nav({ to: "/login" });
-    if (s.role !== "admin") return nav({ to: "/dashboard" });
+    if (!s) { nav({ to: "/login" }); return; }
+    if (s.role !== "admin") { nav({ to: "/dashboard" }); return; }
     setSession(s);
     refresh();
   }, [nav]);

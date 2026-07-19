@@ -86,15 +86,15 @@ function ComplaintPage() {
 
       <form onSubmit={submit} className="card-govt mt-8 p-6 md:p-8 space-y-4">
         <div className="grid gap-4 md:grid-cols-2">
-          <Input label="Consumer Number" value={f.consumerNo} onChange={(v) => setF({ ...f, consumerNo: v })} placeholder="e.g. CN123456" />
-          <Input label="Full Name" value={f.name} onChange={(v) => setF({ ...f, name: v })} />
-          <Input label="Mobile Number" value={f.mobile} onChange={(v) => setF({ ...f, mobile: v.replace(/\D/g, "").slice(0, 10) })} placeholder="10-digit mobile" />
-          <Input label="Email" type="email" value={f.email} onChange={(v) => setF({ ...f, email: v })} />
+          <Input label="Consumer Number" value={f.consumerNo} onChange={(v: string) => setF({ ...f, consumerNo: v })} placeholder="e.g. CN123456" />
+          <Input label="Full Name" value={f.name} onChange={(v: string) => setF({ ...f, name: v })} />
+          <Input label="Mobile Number" value={f.mobile} onChange={(v: string) => setF({ ...f, mobile: v.replace(/\D/g, "").slice(0, 10) })} placeholder="10-digit mobile" />
+          <Input label="Email" type="email" value={f.email} onChange={(v: string) => setF({ ...f, email: v })} />
           <div className="md:col-span-2">
-            <Input label="Address" value={f.address} onChange={(v) => setF({ ...f, address: v })} placeholder="House / street / landmark" />
+            <Input label="Address" value={f.address} onChange={(v: string) => setF({ ...f, address: v })} placeholder="House / street / landmark" />
           </div>
-          <Select label="District" value={f.district} onChange={(v) => setF({ ...f, district: v })} options={DISTRICTS} />
-          <Select label="Complaint Category" value={f.category} onChange={(v) => setF({ ...f, category: v as ComplaintCategory })} options={CATEGORIES} />
+          <Select label="District" value={f.district} onChange={(v: string) => setF({ ...f, district: v })} options={DISTRICTS} />
+          <Select label="Complaint Category" value={f.category} onChange={(v: string) => setF({ ...f, category: v as ComplaintCategory })} options={CATEGORIES} />
         </div>
         <div>
           <label className="text-sm font-medium">Complaint Description</label>
