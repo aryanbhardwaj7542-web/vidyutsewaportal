@@ -7,7 +7,7 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Us — Vidyut Bhawan" },
+      { title: "Contact Us — Vidyut Sewa Portal" },
       { name: "description", content: "Get in touch with the Electricity Department, Bihar. Address, phone numbers and message form." },
     ],
   }),
@@ -29,7 +29,7 @@ function ContactPage() {
     <div className="mx-auto max-w-6xl px-4 py-12">
       <div className="text-center">
         <div className="text-xs font-semibold uppercase tracking-wider text-saffron">We're here to help</div>
-        <h1 className="mt-2 font-serif text-4xl font-bold text-primary">Contact Vidyut Bhawan</h1>
+        <h1 className="mt-2 font-serif text-4xl font-bold text-primary">Contact Vidyut Sewa Portal</h1>
       </div>
 
       <div className="mt-10 grid gap-8 md:grid-cols-2">

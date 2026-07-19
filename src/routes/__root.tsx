@@ -53,10 +53,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vidyut Bhawan — Electricity Complaint Portal, Bihar" },
+      { title: "Vidyut Sewa Portal — Electricity Complaints, Bihar" },
       { name: "description", content: "Official-style electricity complaint management portal for power failure, meter, billing and infrastructure issues in Bihar." },
-      { name: "author", content: "Vidyut Bhawan" },
-      { property: "og:title", content: "Vidyut Bhawan — Electricity Complaint Portal" },
+      { name: "author", content: "Vidyut Sewa Portal" },
+      { property: "og:title", content: "Vidyut Sewa Portal — Electricity Complaints" },
       { property: "og:description", content: "Register, track and resolve electricity complaints across Bihar." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

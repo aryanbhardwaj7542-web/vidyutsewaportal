@@ -7,7 +7,7 @@ import { StatusBadge, StatusTimeline } from "@/components/complaint-bits";
 
 export const Route = createFileRoute("/track")({
   validateSearch: (s: Record<string, unknown>) => ({ id: typeof s.id === "string" ? s.id : "" }),
-  head: () => ({ meta: [{ title: "Track Complaint — Vidyut Bhawan" }, { name: "description", content: "Track your electricity complaint status by Complaint ID." }] }),
+  head: () => ({ meta: [{ title: "Track Complaint — Vidyut Sewa Portal" }, { name: "description", content: "Track your electricity complaint status by Complaint ID." }] }),
   component: TrackPage,
 });
 

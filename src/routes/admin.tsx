@@ -11,7 +11,7 @@ import { Search, Trash2, Download, ClipboardCheck } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
 
 export const Route = createFileRoute("/admin")({
-  head: () => ({ meta: [{ title: "Admin Panel — Vidyut Bhawan" }, { name: "description", content: "Admin dashboard for managing electricity complaints." }] }),
+  head: () => ({ meta: [{ title: "Admin Panel — Vidyut Sewa Portal" }, { name: "description", content: "Admin dashboard for managing electricity complaints." }] }),
   component: AdminPanel,
 });
 

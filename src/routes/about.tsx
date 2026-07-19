@@ -4,8 +4,8 @@ import { Building2, Target, Eye, Award } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About the Department — Vidyut Bhawan" },
-      { name: "description", content: "About the Electricity Department, Government of Bihar — mission, vision and services provided by Vidyut Bhawan." },
+      { title: "About the Department — Vidyut Sewa Portal" },
+      { name: "description", content: "About the Electricity Department, Government of Bihar — mission, vision and services provided by Vidyut Sewa Portal." },
     ],
   }),
   component: AboutPage,
@@ -16,9 +16,9 @@ function AboutPage() {
     <div className="mx-auto max-w-5xl px-4 py-12">
       <div className="text-center">
         <div className="text-xs font-semibold uppercase tracking-wider text-saffron">Electricity Department, Bihar</div>
-        <h1 className="mt-2 font-serif text-4xl font-bold text-primary">About Vidyut Bhawan</h1>
+        <h1 className="mt-2 font-serif text-4xl font-bold text-primary">About Vidyut Sewa Portal</h1>
         <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-          Vidyut Bhawan, Patna is the headquarters of Bihar's Electricity Department. We supply, distribute and maintain reliable electric power to every district of Bihar.
+          Vidyut Sewa Portal is the official grievance-redressal portal of Bihar's Electricity Department, headquartered at Vidyut Bhawan, Patna. We supply, distribute and maintain reliable electric power to every district of Bihar.
         </p>
       </div>
 

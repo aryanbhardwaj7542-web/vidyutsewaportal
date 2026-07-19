@@ -6,7 +6,7 @@ import { StatusBadge } from "@/components/complaint-bits";
 import { FilePlus2 } from "lucide-react";
 
 export const Route = createFileRoute("/dashboard")({
-  head: () => ({ meta: [{ title: "My Dashboard — Vidyut Bhawan" }, { name: "description", content: "Your electricity complaint history and profile." }] }),
+  head: () => ({ meta: [{ title: "My Dashboard — Vidyut Sewa Portal" }, { name: "description", content: "Your electricity complaint history and profile." }] }),
   component: Dashboard,
 });
 
