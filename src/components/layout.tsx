@@ -134,7 +134,7 @@ export function Footer() {
           <ul className="space-y-2 text-sm opacity-90">
             <li><Link to="/about">About Department</Link></li>
             <li><Link to="/complaint">Register Complaint</Link></li>
-            <li><Link to="/track">Track Complaint</Link></li>
+            <li><Link to="/track" search={{ id: "" }}>Track Complaint</Link></li>
             <li><Link to="/faq">FAQ</Link></li>
           </ul>
         </div>

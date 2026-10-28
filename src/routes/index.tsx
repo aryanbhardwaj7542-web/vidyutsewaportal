@@ -94,7 +94,7 @@ function HomePage() {
                   Register a Complaint <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
-              <Link to="/track">
+              <Link to="/track" search={{ id: "" }}>
                 <Button size="lg" variant="outline" className="border-white/40 bg-white/10 text-primary-foreground hover:bg-white/20">
                   Track Complaint
                 </Button>
